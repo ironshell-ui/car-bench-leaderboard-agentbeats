@@ -2,9 +2,9 @@
 # IronShell Agent — CAR-bench Automotive Voice Assistant
 
 [green_agent]
-# CAR-bench green agent (benchmark environment)
+# CAR-bench green agent (benchmark environment) — using OpenRouter for Gemini
 agentbeats_id = "019bb9d5-c273-7ba0-8beb-34e2fb140c10"
-env = { GEMINI_API_KEY = "${GEMINI_API_KEY}", LOGURU_LEVEL = "${LOGURU_LEVEL}" }
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", LOGURU_LEVEL = "${LOGURU_LEVEL}" }
 
 [[participants]]
 agentbeats_id = "ironshell-ui/ironshell"
@@ -18,3 +18,7 @@ tasks_base_num_tasks = -1
 tasks_hallucination_num_tasks = -1
 tasks_disambiguation_num_tasks = -1
 max_steps = 50
+user_model = "openrouter/google/gemini-2.5-flash"
+user_provider = "openrouter"
+policy_evaluator_model = "openrouter/google/gemini-2.5-flash"
+policy_evaluator_provider = "openrouter"
