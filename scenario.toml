@@ -4,7 +4,7 @@
 [green_agent]
 # CAR-bench green agent (benchmark environment) — using OpenRouter for Gemini
 agentbeats_id = "019bb9d5-c273-7ba0-8beb-34e2fb140c10"
-env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", LOGURU_LEVEL = "${LOGURU_LEVEL}" }
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", LOGURU_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = "ironshell-ui/ironshell"
@@ -12,7 +12,7 @@ name = "agent"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", DEEPSEEK_API_KEY = "${DEEPSEEK_API_KEY}", KIMI_API_KEY = "${KIMI_API_KEY}", MINIMAX_API_KEY = "${MINIMAX_API_KEY}", SERPAPI_KEY = "${SERPAPI_KEY}", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}", FEATHERLESS_API_KEY = "${FEATHERLESS_API_KEY}" }
 
 [config]
-num_trials = 3
+num_trials = 1
 task_split = "test"
 tasks_base_num_tasks = -1
 tasks_hallucination_num_tasks = -1
