@@ -1,5 +1,5 @@
 # AgentBeats Leaderboard Assessment Scenario
-# IronShell Agent — CAR-bench Automotive Voice Assistant (v2)
+# IronShell Agent v8.0 — CAR-bench (reduced tasks to fit 6h GHA limit)
 
 [green_agent]
 # CAR-bench green agent (benchmark environment) — using OpenRouter for Gemini
@@ -14,12 +14,11 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", DEEPSEEK_API_KEY = "${DEEPSEEK_API
 [config]
 num_trials = 1
 task_split = "test"
-tasks_base_num_tasks = -1
-tasks_hallucination_num_tasks = -1
-tasks_disambiguation_num_tasks = -1
-max_steps = 50
+tasks_base_num_tasks = 20
+tasks_hallucination_num_tasks = 10
+tasks_disambiguation_num_tasks = 10
+max_steps = 30
 user_model = "openrouter/google/gemini-2.5-flash"
 user_provider = "openrouter"
 policy_evaluator_model = "openrouter/google/gemini-2.5-flash"
 policy_evaluator_provider = "openrouter"
-
