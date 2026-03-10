@@ -1,0 +1,538 @@
+{
+  "participants": {
+    "agent": "ironshell-ui/ironshell"
+  },
+  "results": [
+    {
+      "score": 0.0,
+      "max_score": 40,
+      "pass_rate": 0.0,
+      "task_rewards_by_split": {
+        "base": {
+          "base_1": 0.0,
+          "base_3": 0.0,
+          "base_5": 0.0,
+          "base_7": 0.0,
+          "base_9": 0.0,
+          "base_11": 0.0,
+          "base_13": 0.0,
+          "base_15": 0.0,
+          "base_17": 0.0,
+          "base_19": 0.0,
+          "base_21": 0.0,
+          "base_23": 0.0,
+          "base_25": 0.0,
+          "base_27": 0.0,
+          "base_29": 0.0,
+          "base_31": 0.0,
+          "base_33": 0.0,
+          "base_35": 0.0,
+          "base_37": 0.0,
+          "base_39": 0.0
+        },
+        "hallucination": {
+          "hallucination_1": 0.0,
+          "hallucination_3": 0.0,
+          "hallucination_5": 0.0,
+          "hallucination_7": 0.0,
+          "hallucination_9": 0.0,
+          "hallucination_11": 0.0,
+          "hallucination_13": 0.0,
+          "hallucination_15": 0.0,
+          "hallucination_17": 0.0,
+          "hallucination_19": 0.0
+        },
+        "disambiguation": {
+          "disambiguation_1": 0.0,
+          "disambiguation_3": 0.0,
+          "disambiguation_5": 0.0,
+          "disambiguation_7": 0.0,
+          "disambiguation_9": 0.0,
+          "disambiguation_11": 0.0,
+          "disambiguation_13": 0.0,
+          "disambiguation_15": 0.0,
+          "disambiguation_17": 0.0,
+          "disambiguation_19": 0.0
+        }
+      },
+      "time_used": 9652.316613674164,
+      "pass_power_k_scores": {
+        "Pass^1": 0.0
+      },
+      "pass_at_k_scores": {
+        "Pass@1": 0.0
+      },
+      "pass_power_k_scores_by_split": {
+        "base": {
+          "Pass^1": 0.0
+        },
+        "hallucination": {
+          "Pass^1": 0.0
+        },
+        "disambiguation": {
+          "Pass^1": 0.0
+        }
+      },
+      "pass_at_k_scores_by_split": {
+        "base": {
+          "Pass@1": 0.0
+        },
+        "hallucination": {
+          "Pass@1": 0.0
+        },
+        "disambiguation": {
+          "Pass@1": 0.0
+        }
+      },
+      "max_trials": 1,
+      "detailed_results_by_split": {
+        "base": [
+          {
+            "task_id": "base_1",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_3",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_5",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_7",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_9",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_11",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_13",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_15",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_17",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_19",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_21",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_23",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_25",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_27",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_29",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_31",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_33",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_35",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_37",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "base_39",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          }
+        ],
+        "hallucination": [
+          {
+            "task_id": "hallucination_1",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_3",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_5",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_7",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_9",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_11",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_13",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_15",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_17",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "hallucination_19",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          }
+        ],
+        "disambiguation": [
+          {
+            "task_id": "disambiguation_1",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_3",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_5",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_7",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_9",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_11",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_13",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_15",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_17",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          },
+          {
+            "task_id": "disambiguation_19",
+            "reward": 0.0,
+            "trial": 0,
+            "reward_info": {},
+            "task": {},
+            "trajectory": [],
+            "user_cost": 0,
+            "total_agent_cost": 0,
+            "total_llm_latency_ms": 0
+          }
+        ]
+      }
+    }
+  ]
+}

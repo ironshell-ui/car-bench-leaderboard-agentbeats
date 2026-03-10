@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/car-bench/car-bench-agentbeats-car-bench-evaluator@sha256:909538a653fcf7c21086fcad9985ef15e555e34cc8f5f382a9e507ff303d2a96",
+    "agent": "ghcr.io/ironshell-ui/claudecowork-agent@sha256:b46a1859e2a2a536ec2d068bbee3993705c0509943d8d5c2f67ebbbfc4afd8a9",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-03-10T14:22:52Z",
+  "github_actions": {
+    "run_url": "https://github.com/ironshell-ui/car-bench-leaderboard-agentbeats/actions/runs/22900745646",
+    "run_logs_url": "https://api.github.com/repos/ironshell-ui/car-bench-leaderboard-agentbeats/actions/runs/22900745646/logs",
+    "ref": "refs/heads/submission-ironshell-ui-20260310-carbench",
+    "sha": "5c0e37c983e98e89ff536fd6a2a81a0849f35eb4",
+    "repository_url": "https://github.com/ironshell-ui/car-bench-leaderboard-agentbeats",
+    "workflow_ref": "ironshell-ui/car-bench-leaderboard-agentbeats/.github/workflows/run-scenario.yml@refs/heads/submission-ironshell-ui-20260310-carbench",
+    "workflow_sha": "5c0e37c983e98e89ff536fd6a2a81a0849f35eb4"
+  }
+}
